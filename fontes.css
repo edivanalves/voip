@@ -1,0 +1,7 @@
+@font-face{font-family: fonte principal;
+    src:url(fontes/Mortend\ Bold.otf) format(ttf);
+    font-weight: bold;
+    font-style: normal;}
+  
+
+  @import  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300;500&family=Merriweather:ital,wght@0,700;0,900;1,300&family=Open+Sans:ital,wght@0,700;0,800;1,700;1,800&family=Pacifico&display=swap');
