@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #480F13;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+max-width: 1200 px;
+margin: 0,auto;
+padding: 20px; }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+li{
+  color: rgb(2, 2, 2);
+    display: inline-block;
+    margin: 20px;
+   padding: 5px;
+   border-radius: 10px;
+
+
+}
+li:hover{
+    color: blue;
+    transition: 0.3s all;
+   
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    
+
+}
+h1{
+    font-weight: 200;
+
+}
+h2{
+    
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+#fonte1{
+    color: aliceblue;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+spam{
+    color: rgba(230, 99, 11, 0.897);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+img{
+    width: 500px;
+}
+.logo{
+    width: 600px;
+    max-width: 100%;
+
+}
+
+article{
+    text-align: center;
+   
+
+}
+
+#caixa2{
+    border:2px solid red;
+    padding: 10px;
+    border-radius: 15px;
+}
+#caixa2:hover{
+   background-color: rgb(204, 128, 13);
+   color: white;
+}
+
+    
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;}
+
+    form [type=submit]{
+        height: 50px;
+        width: 50%;
+        background-color:#e96c18;
+        color: black;
+        font-weight: bold;
+    }
+    form [type=submit]:hover{
+        color: aliceblue;
+        cursor: pointer;
+
+    
+    }
+
+
+
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+
+    }
+footer{
+    padding-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+    
+
+
