@@ -19,6 +19,7 @@ input{
 }
 img{
     max-width: auto;
+    background-size: cover;
 }
 ul{
     text-align: center;
