@@ -140,7 +140,15 @@ footer{
     font-weight: bold;
 }
 
-
+.planos{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: aliceblue;
+}
+div#10{
+    background-color: aqua;
+    display: flexbox;
+    border: 1px;
     
-
-
+}
